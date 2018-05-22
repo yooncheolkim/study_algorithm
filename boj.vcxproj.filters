@@ -135,14 +135,26 @@
     <ClCompile Include="2251_물통\2251.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2309_일곱난쟁이\2309.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4991_로봇청소기\4991.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9252_LCS2\9252.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="15685_드래곤커브\드래곤커브.md" />
-    <None Include="11047_동전0\동전0.md" />
-    <None Include="2293_동전1\동전1.md" />
-    <None Include="2294_동전2\동전2.md" />
-    <None Include="9466_텀프로젝트\텀프로젝트_9466.md" />
     <None Include="2618_경찰차\경찰차_2618.md" />
-    <None Include="2251_물통\물통_2251.md" />
+    <None Include="2309_일곱난쟁이\README.md" />
+    <None Include="4991_로봇청소기\README.md" />
+    <None Include="2251_물통\README.md" />
+    <None Include="2293_동전1\README.md" />
+    <None Include="2294_동전2\README.md" />
+    <None Include="9466_텀프로젝트\README.md" />
+    <None Include="11047_동전0\README.md" />
+    <None Include="15685_드래곤커브\README.md" />
+    <None Include="9252_LCS2\README.md" />
   </ItemGroup>
 </Project>
