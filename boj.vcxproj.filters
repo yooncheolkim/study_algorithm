@@ -144,6 +144,9 @@
     <ClCompile Include="9252_LCS2\9252.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3108_로고\3108.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="2618_경찰차\경찰차_2618.md" />
@@ -156,5 +159,6 @@
     <None Include="11047_동전0\README.md" />
     <None Include="15685_드래곤커브\README.md" />
     <None Include="9252_LCS2\README.md" />
+    <None Include="3108_로고\README.md" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ using namespace std;
 int sh[9];
 bool flag = false;
 //idx는 지금 고려해야 할거, cnt는 현재 몇개 추가되었는지
-void combi(vector<int> a, int n,int r, int idx, int cnt) 
+void combi(vector<int> a, int n,int r, int idx, int cnt)
 {
 	if (cnt >= r)
 	{
