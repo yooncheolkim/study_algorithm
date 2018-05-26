@@ -231,6 +231,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2146_다리만들기\2146.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2178.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -298,6 +301,7 @@
   <ItemGroup>
     <None Include="11047_동전0\README.md" />
     <None Include="15685_드래곤커브\README.md" />
+    <None Include="2146_다리만들기\README.md" />
     <None Include="2251_물통\README.md" />
     <None Include="2293_동전1\README.md" />
     <None Include="2294_동전2\README.md" />
