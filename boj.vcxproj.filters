@@ -150,6 +150,27 @@
     <ClCompile Include="2146_다리만들기\2146.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10844_쉬운계단수\10844.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2805_나무자르기\2805.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14891_톱니바퀴\14891.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10971_외판원순회2\10971.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11779_최소비용구하기2\11779.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1992_쿼드트리\1992.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1495_기타리스트\1495.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="2618_경찰차\경찰차_2618.md" />
@@ -164,5 +185,11 @@
     <None Include="9252_LCS2\README.md" />
     <None Include="3108_로고\README.md" />
     <None Include="2146_다리만들기\README.md" />
+    <None Include="10844_쉬운계단수\README.md" />
+    <None Include="2805_나무자르기\README.md" />
+    <None Include="14891_톱니바퀴\README.md" />
+    <None Include="11779_최소비용구하기2\README.md" />
+    <None Include="1992_쿼드트리\README.md" />
+    <None Include="1495_기타리스트\README.md" />
   </ItemGroup>
 </Project>
