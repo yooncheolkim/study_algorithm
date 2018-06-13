@@ -272,6 +272,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2469_사다리타기\2469.cpp" />
     <ClCompile Include="2618_경찰차\2618.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -322,6 +323,7 @@
   <ItemGroup>
     <None Include="10844_쉬운계단수\README.md" />
     <None Include="11047_동전0\README.md" />
+    <None Include="11437_LCA\README.md" />
     <None Include="11779_최소비용구하기2\README.md" />
     <None Include="14891_톱니바퀴\README.md" />
     <None Include="1495_기타리스트\README.md" />

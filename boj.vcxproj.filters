@@ -171,6 +171,9 @@
     <ClCompile Include="1495_기타리스트\1495.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2469_사다리타기\2469.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="2618_경찰차\경찰차_2618.md" />
@@ -191,5 +194,6 @@
     <None Include="11779_최소비용구하기2\README.md" />
     <None Include="1992_쿼드트리\README.md" />
     <None Include="1495_기타리스트\README.md" />
+    <None Include="11437_LCA\README.md" />
   </ItemGroup>
 </Project>
