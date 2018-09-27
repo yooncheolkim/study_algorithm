@@ -180,6 +180,9 @@
     <ClCompile Include="7576_토마토\7576.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12872_플레이리스트\12872.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="2618_경찰차\경찰차_2618.md" />
