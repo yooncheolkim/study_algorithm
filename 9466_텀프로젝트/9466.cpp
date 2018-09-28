@@ -1,49 +1,35 @@
 #include <iostream>
 #include <string.h>
-#include <vector>
 using namespace std;
-int T, n;
-int students[100001];
-bool iscycle[100001];
-bool visited[100001];
-vector<int> p;
-int result = 0;
-void dfs(int idx, int start)
-{
-	visited[idx] = true;
-	p.push_back(idx);
 
-	if (visited[students[idx]])
-	{
-
-	}
-	if (students[idx] == start)
-	{
-		for (auto i : p)
-			iscycle[i] = true;
-	}
-
-	dfs(students[idx], start);
-}
-int main()
-{
+int main(){
+	int T;
+	bool check[100001];
+	int want[100001];
+	int finish[100001];
 	cin >> T;
-	for (int i = 0; i < T; i++)
-	{
-		memset(students, 0, sizeof(students));
-		memset(iscycle, false, sizeof(iscycle));
-		memset(visited, false, sizeof(visited));
-		cin >> n;
-		result = n;
-		for (int j = 1; j <= n; j++)
-			cin >> students[j];
 
-		for (int j = 1; j <= n; j++)
-		{
-			dfs(j,j);
+	while (T--) {
+		int ans = 0;
+		int n;
+		cin >> n;
+		memset(check, false,sizeof(check));
+		memset(finish, 0, sizeof(finish));
+		for (int i = 1; i <= n; i++) {
+			cin >> want[i];
+			finish[want[i]]++;
 		}
-		
-		
+
+		for (int i = 1; i <= n; i++) {
+			int now = i;
+			while (!check[now] && !finish[now]) {
+				ans++;
+				check[now] = true;
+				finish[want[now]]--;
+				now = want[now];
+			}
+		}
+		cout << ans << endl;
 	}
 	return 0;
 }

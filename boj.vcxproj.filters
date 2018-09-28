@@ -183,6 +183,21 @@
     <ClCompile Include="12872_플레이리스트\12872.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="코딩테스트\preNHN2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩테스트\preNHN5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15649_N과M(1)\15649.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15686_치킨배달\15686_치킨배달.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15650_N과M(2)\15650.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="2618_경찰차\경찰차_2618.md" />
@@ -206,5 +221,6 @@
     <None Include="11437_LCA\README.md" />
     <None Include="1149_RGB거리\README.md" />
     <None Include="7576_토마토\README.md" />
+    <None Include="15649_N과M(1)\README.md" />
   </ItemGroup>
 </Project>

@@ -4,60 +4,57 @@
 #include <iostream>
 #include <vector>
 #include <math.h>
+#include <algorithm>
 using namespace std;
-struct pos {
+struct spot {
 	int y, x;
 };
 int N, M;
-int map[51][51];
-vector<pos> chicken;
-vector<pos> home;
-vector<int> chickset;
-int result = 999999999;
-void pick(int n, vector<int> st, int r)
-{
-	if (r == 0)
-	{
-		int sum_result = 0;
-		for (int i = 0; i < home.size() ;i++)
-		{
-			int home_min = 999999999;
-			for (int j = 0; j < st.size(); j++)
-			{
-				int temp =  abs(home[i].y - chicken[st[j]].y) + abs(home[i].x - chicken[st[j]].x);
-				home_min = home_min < temp ? home_min : temp;
-			}
-			sum_result += home_min;
-		}
-		result = result < sum_result ? result : sum_result;
-	}
+vector<spot> homes;
+vector<spot> chicks;
 
-	int smallest = st.empty() ? 0 : st.size();
-
-	for (int next = smallest; next < n; next++)
-	{
-		st.push_back(next);
-		pick(n, st, r - 1);
-		st.erase(st.begin()+st.size()-1);
-	}
+int getDist(const spot & a, const spot & b) {
+	return abs(a.y - b.y) + abs(a.x - b.x);
 }
-int main()
-{
-	cin >> N >> M;
-	for (int i = 0; i < N; i++)
-	{
-		for (int j = 0; j < N; j++)
-		{
-			cin >> map[i][j];
-			if (map[i][j] == 1) home.push_back({ i,j });
-			if (map[i][j] == 2) chicken.push_back({ i,j });
+
+int dfs(vector<spot> combiChicks, int idx) {
+	//거리 계산
+	int ret = 99999999;
+	if (combiChicks.size() == M) {
+		int sum = 0;
+		for (int i = 0; i < homes.size(); i++) {
+			int minVal = 99999999;
+			for (int j = 0; j < combiChicks.size(); j++) {
+				minVal = min(minVal, getDist(homes[i], combiChicks[j]));
+			}
+			sum += minVal;
 		}
+		return min(ret, sum);
 	}
 
-	//chicken.size() 에서 M개 뽑기. 그래서 최소 값 찾기
-	pick(chicken.size(), chickset, M);
+	//치킨집 고르기
+	for (int i = idx; i < chicks.size(); i++) {
+		combiChicks.push_back(chicks[i]);
+		ret = min(ret, dfs(combiChicks, i + 1));
+		combiChicks.pop_back();
+	}
+	return ret;
+}
 
-	cout << result << endl;
-	
+int main() {
+	cin >> N >> M;
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			int input;
+			cin >> input;
+			if (input == 1)
+				homes.push_back({ i,j });
+			else if (input == 2)
+				chicks.push_back({ i,j });
+		}
+	}
+	vector<spot> combiChicks;
+	cout << dfs(combiChicks, 0) << endl;
+
 	return 0;
 }
