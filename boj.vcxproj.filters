@@ -183,12 +183,6 @@
     <ClCompile Include="12872_플레이리스트\12872.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="코딩테스트\preNHN2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="코딩테스트\preNHN5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="15649_N과M(1)\15649.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -196,6 +190,36 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="15650_N과M(2)\15650.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩테스트_NHN\preNHN2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩테스트_NHN\preNHN5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩테스트_NHN\1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩테스트_NHN\3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩테스트_NHN\2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="코딩테스트_NHN\4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14500_테트로미노\14500.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14501_퇴사\14501.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14502_연구소\14502.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14503_로봇청소기\14503.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -222,5 +246,8 @@
     <None Include="1149_RGB거리\README.md" />
     <None Include="7576_토마토\README.md" />
     <None Include="15649_N과M(1)\README.md" />
+    <None Include="14500_테트로미노\README.md" />
+    <None Include="14502_연구소\README.md" />
+    <None Include="14503_로봇청소기\READMD.md" />
   </ItemGroup>
 </Project>
