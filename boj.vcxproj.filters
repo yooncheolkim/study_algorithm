@@ -222,6 +222,18 @@
     <ClCompile Include="14503_로봇청소기\14503.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15683_감시\15683.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12100_2048(Easy)\12100.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3190_뱀\3190.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13460_구슬탈출2\13460.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="2618_경찰차\경찰차_2618.md" />
@@ -249,5 +261,9 @@
     <None Include="14500_테트로미노\README.md" />
     <None Include="14502_연구소\README.md" />
     <None Include="14503_로봇청소기\READMD.md" />
+    <None Include="15683_감시\README.md" />
+    <None Include="12100_2048(Easy)\READMD.md" />
+    <None Include="3190_뱀\README.md" />
+    <None Include="13460_구슬탈출2\README.md" />
   </ItemGroup>
 </Project>

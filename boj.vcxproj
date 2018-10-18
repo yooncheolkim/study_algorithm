@@ -191,6 +191,9 @@
     <ClCompile Include="11779_최소비용구하기2\11779.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="12100_2048(Easy)\12100.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="1260.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -202,6 +205,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="13460_구슬탈출2\13460.cpp" />
     <ClCompile Include="14500_테트로미노\14500.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -228,6 +232,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="15650_N과M(2)\15650.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="15683_감시\15683.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="15685_드래곤커브\15685.cpp">
@@ -316,6 +323,9 @@
     <ClCompile Include="3108_로고\3108.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="3190_뱀\3190.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="4991_로봇청소기\4991.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -376,12 +386,15 @@
     <None Include="11437_LCA\README.md" />
     <None Include="1149_RGB거리\README.md" />
     <None Include="11779_최소비용구하기2\README.md" />
+    <None Include="12100_2048(Easy)\READMD.md" />
+    <None Include="13460_구슬탈출2\README.md" />
     <None Include="14500_테트로미노\README.md" />
     <None Include="14502_연구소\README.md" />
     <None Include="14503_로봇청소기\READMD.md" />
     <None Include="14891_톱니바퀴\README.md" />
     <None Include="1495_기타리스트\README.md" />
     <None Include="15649_N과M(1)\README.md" />
+    <None Include="15683_감시\README.md" />
     <None Include="15685_드래곤커브\README.md" />
     <None Include="1992_쿼드트리\README.md" />
     <None Include="2146_다리만들기\README.md" />
@@ -392,6 +405,7 @@
     <None Include="2618_경찰차\경찰차_2618.md" />
     <None Include="2805_나무자르기\README.md" />
     <None Include="3108_로고\README.md" />
+    <None Include="3190_뱀\README.md" />
     <None Include="4991_로봇청소기\README.md" />
     <None Include="7576_토마토\README.md" />
     <None Include="9252_LCS2\README.md" />
