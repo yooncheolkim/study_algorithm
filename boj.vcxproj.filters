@@ -54,9 +54,6 @@
     <ClCompile Include="1126.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="13460.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1149.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -234,6 +231,24 @@
     <ClCompile Include="13460_구슬탈출2\13460.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14499_주사위굴리기\14499.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14888_연산자끼워넣기\14888.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14889_스타트와링크\14889.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15654_N과M(5)\15654.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2468_안전영역\2468.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1937_욕심쟁이판다\1937.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="2618_경찰차\경찰차_2618.md" />
@@ -265,5 +280,8 @@
     <None Include="12100_2048(Easy)\READMD.md" />
     <None Include="3190_뱀\README.md" />
     <None Include="13460_구슬탈출2\README.md" />
+    <None Include="14499_주사위굴리기\READMD.md" />
+    <None Include="14888_연산자끼워넣기\README.md" />
+    <None Include="14889_스타트와링크\README.md" />
   </ItemGroup>
 </Project>
